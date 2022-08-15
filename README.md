@@ -1,5 +1,7 @@
 # combuuid
 
+![status tests](https://github.com/pckilgore/combuuid/actions/workflows/pr.yml/badge.svg)
+
 Generates v4 `github.com/google/uuid`s optimized for use as primary keys in
 relational databases like PostgreSQL, MySQL, MariaDB, and SQLite.
 
@@ -17,7 +19,7 @@ by Jimmy Nilsson from which the name `COMB`s originates.
 Small, optimized, fuzz tested and benchmarked for minimal overhead over `uuid`
 (only a few ns overhead beyond retreiving system time):
 
-![combuuid benchmarks vs. google/uuid](../blob/master/bench.jpg)
+![combuuid benchmarks vs. google/uuid](/bench.jpg)
 
 ## Stop. Do you need this?
 
